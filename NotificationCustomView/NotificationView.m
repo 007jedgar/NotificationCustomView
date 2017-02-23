@@ -21,10 +21,10 @@
 -(instancetype) initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     
-    UIView *noticationView =[[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 50)];
-    noticationView.backgroundColor = [UIColor colorWithRed:34/255.0 green:56/255.0 blue:135/255.0 alpha:1.0];
-    
+    self.slideDownView =[[UIView alloc]initWithFrame:CGRectMake(200, 200, 200, 50)];
+    self.slideDownView.backgroundColor = [UIColor colorWithRed:34/255.0 green:56/255.0 blue:135/255.0 alpha:1.0];
     
     return self;
+    
 }
 @end

@@ -10,4 +10,6 @@
 
 @interface NotificationView : UIView
 
+@property (nonatomic, strong) UIView *slideDownView;
+
 @end

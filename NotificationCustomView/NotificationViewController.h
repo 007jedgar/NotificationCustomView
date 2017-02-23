@@ -12,5 +12,5 @@
 @interface NotificationViewController : UIViewController
 
 @property (nonatomic, strong) UIView *notificationView;
-//@property (nonatomic, strong) UIView *plainView;
+@property (nonatomic, strong) UIView *plainView;
 @end

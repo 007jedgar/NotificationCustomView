@@ -15,6 +15,7 @@
 		AB22E3CD1E4E43DD00650BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB22E3CB1E4E43DD00650BDD /* LaunchScreen.storyboard */; };
 		AB22E3D71E4E44EB00650BDD /* NotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22E3D61E4E44EB00650BDD /* NotificationView.m */; };
 		AB22E3DA1E4E451600650BDD /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22E3D91E4E451600650BDD /* NotificationViewController.m */; };
+		ABA372271E5CD3E900CD388A /* StartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA372261E5CD3E900CD388A /* StartPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		AB22E3D61E4E44EB00650BDD /* NotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationView.m; sourceTree = "<group>"; };
 		AB22E3D81E4E451600650BDD /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		AB22E3D91E4E451600650BDD /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		ABA372251E5CD3E900CD388A /* StartPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPageViewController.h; sourceTree = "<group>"; };
+		ABA372261E5CD3E900CD388A /* StartPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 		AB22E3BC1E4E43DD00650BDD /* NotificationCustomView */ = {
 			isa = PBXGroup;
 			children = (
+				ABA372241E5CD3BD00CD388A /* Gesture Stuff */,
 				AB22E3D41E4E440F00650BDD /* Custom View Classes */,
 				AB22E3C01E4E43DD00650BDD /* AppDelegate.h */,
 				AB22E3C11E4E43DD00650BDD /* AppDelegate.m */,
@@ -103,6 +107,15 @@
 			children = (
 			);
 			name = Navigation;
+			sourceTree = "<group>";
+		};
+		ABA372241E5CD3BD00CD388A /* Gesture Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				ABA372251E5CD3E900CD388A /* StartPageViewController.h */,
+				ABA372261E5CD3E900CD388A /* StartPageViewController.m */,
+			);
+			name = "Gesture Stuff";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +194,7 @@
 				AB22E3C21E4E43DD00650BDD /* AppDelegate.m in Sources */,
 				AB22E3BF1E4E43DD00650BDD /* main.m in Sources */,
 				AB22E3DA1E4E451600650BDD /* NotificationViewController.m in Sources */,
+				ABA372271E5CD3E900CD388A /* StartPageViewController.m in Sources */,
 				AB22E3D71E4E44EB00650BDD /* NotificationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
